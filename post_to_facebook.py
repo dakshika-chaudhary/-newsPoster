@@ -1,31 +1,3 @@
-# import requests
-# import os
-# from dotenv import load_dotenv
-
-
-# load_dotenv()
-
-# PAGE_ACCESS_TOKEN = os.getenv("PAGE_ACCESS_TOKEN")
-# PAGE_ID = os.getenv("PAGE_ID")
-
-# def post_to_facebook(message):
-#     url = f"https://graph.facebook.com/{PAGE_ID}/feed"
-#     payload = {
-#         "message": message,
-#         "access_token": PAGE_ACCESS_TOKEN
-#     }
-
-#     response = requests.post(url, data=payload)
-#     if response.status_code == 200:
-#         print("✅ Post published successfully!")
-#         print("Post ID:", response.json()["id"])
-#     else:
-#         print("❌ Failed to publish post")
-#         print(response.text)
-
-# # Example use
-# if __name__ == "__main__":
-#     post_to_facebook("🚀 Hello, Facebook! This is a post from Python!")
 
 
 import requests
